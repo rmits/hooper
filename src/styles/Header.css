@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Indie Flower', cursive;
+}
+
+.header h1 {
+    color: blue;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.navItems {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    margin: 10px;
+}
