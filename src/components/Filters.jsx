@@ -10,7 +10,7 @@ const Filters = ({ filters, onChange }) => {
         Filter by category:
       </label>
       <input
-        type="text"
+        type="checkbox"
         name="filter"
         id="filter"
         className="filtersInput"
@@ -19,4 +19,6 @@ const Filters = ({ filters, onChange }) => {
       />
     </div>
   );
-}
+};
+
+export default Filters;

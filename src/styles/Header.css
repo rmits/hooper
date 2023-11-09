@@ -1,8 +1,9 @@
 .header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-family: 'Dosis', sans-serif;
     font-family: 'Indie Flower', cursive;
+    justify-content: space-between;
 }
 
 .header h1 {
@@ -12,13 +13,18 @@
 .nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .navItems {
     display: flex;
     flex-direction: row;
-    text-decoration: none;
     cursor: pointer;
     color: black;
-    margin: 10px;
+    list-style-type: none;
+}
+
+.navLink {
+    margin: 0px 10px;
+    text-decoration: none;
 }

@@ -9,11 +9,12 @@ const Header = () => {
                 </div>
                 <nav className='nav'>
                     <ul className='navItems'>
-                        <li><a href='/'>Home</a></li>
-                        <li><a href='/cart'>Cart</a></li>
-                        <li><a href='/stats'>Stats</a></li>
+                        <li><a href='/' className='navLink'>Home</a></li>
+                        <li><a href='/cart' className='navLink'>Cart</a></li>
+                        <li><a href='/stats' className='navLink'>Stats</a></li>
                     </ul>
                 </nav>
+                
             </header>
         </>
     );
